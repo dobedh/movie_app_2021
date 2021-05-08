@@ -39,6 +39,7 @@ class Home extends React.Component {
               console.log(movie);
               return (
                 <Movie
+                  id={movie.id}
                   key={movie.id}
                   title={movie.title}
                   year={movie.year}
